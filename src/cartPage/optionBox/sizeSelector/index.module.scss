@@ -1,0 +1,37 @@
+.dropDownSection {
+    display: flex;
+
+
+
+    .colorDropDown {
+        width: 72px;
+        height: 25px;
+        border-radius: 2;
+
+
+        select {
+            width: 72px;
+            height: 25px;
+            border: 0.9px solid #D9D9D9;
+            outline: none;
+            margin-left: 15px;
+        }
+
+    }
+
+    .sizeDropDown {
+        padding-left: 20px;
+        height: 25px;
+        width: 65px;
+        border-radius: 2;
+
+        select {
+            height: 25px;
+            width: 65px;
+            border: 0.9px solid #D9D9D9;
+            outline: none;
+        }
+    }
+
+
+}

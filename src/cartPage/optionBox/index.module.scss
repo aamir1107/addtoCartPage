@@ -1,0 +1,118 @@
+.optionSection {
+    padding: 20px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &.selectedOption {
+
+        border: 1px solid #007F61;
+    }
+
+
+
+    .rightSection {
+        padding-top: 6px;
+        width: 40px;
+    }
+
+    .middleSection {
+        width: calc(100% - 130px);
+
+
+        .quantitySectiom {
+
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0em;
+            color: #000000;
+            padding-bottom: 7px;
+
+
+
+        }
+
+        .currencySection {
+
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+    }
+
+    .leftSection {
+        width: 90px;
+
+
+
+        .isPopularDeal {
+            color: #007F61;
+            height: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 14px;
+            letter-spacing: 0em;
+            padding-bottom: 7px;
+            text-align: right;
+
+        }
+
+        .discountSection {
+
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: right;
+
+
+
+
+
+
+        }
+    }
+
+    .optionSections {
+
+        display: grid;
+        gap: 5px;
+
+        padding-top: 10px;
+
+        .HeadingSection {
+            display: flex;
+
+            .sizeText {
+
+                width: 61px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 12px;
+                text-align: left;
+                padding-left: 40px;
+                padding-bottom: 5px;
+            }
+
+            .colorText {
+                width: 50px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 12px;
+                text-align: right;
+                padding-bottom: 5px;
+
+            }
+
+        }
+
+
+
+    }
+}
